@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
-    <mxGraphModel dx="1678" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -244,6 +244,59 @@
             <mxPoint x="854.5" y="348.5" as="sourcePoint" />
             <mxPoint x="954.5" y="248.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wR1I_Ti6qpzqJlPBpOAb-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wR1I_Ti6qpzqJlPBpOAb-218" target="wR1I_Ti6qpzqJlPBpOAb-219">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wR1I_Ti6qpzqJlPBpOAb-218" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="880" width="83.33" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wR1I_Ti6qpzqJlPBpOAb-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wR1I_Ti6qpzqJlPBpOAb-219" target="wR1I_Ti6qpzqJlPBpOAb-220">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wR1I_Ti6qpzqJlPBpOAb-219" value="Scan QR" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="513.34" y="960" width="116.67" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wR1I_Ti6qpzqJlPBpOAb-220" value="Memvalidasi code QR" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480.83000000000004" y="1070" width="181.66" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wR1I_Ti6qpzqJlPBpOAb-224" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wR1I_Ti6qpzqJlPBpOAb-221" target="wR1I_Ti6qpzqJlPBpOAb-219">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="1200" />
+              <mxPoint x="710" y="995" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wR1I_Ti6qpzqJlPBpOAb-227" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wR1I_Ti6qpzqJlPBpOAb-224">
+          <mxGeometry x="-0.8225" y="-4" relative="1" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wR1I_Ti6qpzqJlPBpOAb-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wR1I_Ti6qpzqJlPBpOAb-221" target="wR1I_Ti6qpzqJlPBpOAb-226">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="571.655" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wR1I_Ti6qpzqJlPBpOAb-230" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wR1I_Ti6qpzqJlPBpOAb-228">
+          <mxGeometry x="-0.52" y="-2" relative="1" as="geometry">
+            <mxPoint x="15" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wR1I_Ti6qpzqJlPBpOAb-221" value="QR valid?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="521.67" y="1150" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wR1I_Ti6qpzqJlPBpOAb-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wR1I_Ti6qpzqJlPBpOAb-226" target="wR1I_Ti6qpzqJlPBpOAb-231">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wR1I_Ti6qpzqJlPBpOAb-226" value="Sudah pernah mengisi data?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="521.66" y="1300" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wR1I_Ti6qpzqJlPBpOAb-231" value="Inputkan data" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="364.16" y="1410" width="116.67" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wR1I_Ti6qpzqJlPBpOAb-235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wR1I_Ti6qpzqJlPBpOAb-220" target="wR1I_Ti6qpzqJlPBpOAb-221">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
